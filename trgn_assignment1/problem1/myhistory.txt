@@ -1,0 +1,25 @@
+    1  ssh davea@trgn.usc.edu
+    2  pwd
+    3  passwd
+    4  cat/etc/*release|head-1
+    5  FILE="bin"; [ -d "$FILE" ] && echo "$FILE" | md5sum || echo "None" | md5sum | cut -f1
+    6  ls
+    7  pwd
+    8  mkdir assignments
+    9  ls
+   10  pwd
+   11  cd assignments
+   12  mkdir trgn_assignment1
+   13  echo "#trgn510_assignment1" >> README.md
+   14  git init
+   15  git add README.md
+   16  git commit -m "first commit"
+   17  git remote add origin https://github.com/aasthayd/trgn510_assignment1.git
+   18  git push -u origin master
+   19  ls
+   20  cd trgn_assignment1
+   21  mkdir problem1
+   22  ls
+   23  history
+   24  cd problem1
+   25  history > myhistory.txt

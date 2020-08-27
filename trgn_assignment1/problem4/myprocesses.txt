@@ -1,0 +1,8 @@
+root       8121   2718  0 14:41 ?        00:00:00 sshd: davea [priv]
+davea      8149   8121  0 14:41 ?        00:00:00 sshd: davea@pts/7
+davea      8151   8149  0 14:41 pts/7    00:00:00 -bash
+root       9227   2718  0 14:57 ?        00:00:00 sshd: davea [priv]
+davea      9239   9227  0 14:57 ?        00:00:00 sshd: davea@pts/8
+davea      9240   9239  0 14:57 pts/8    00:00:00 -bash
+davea     15254   9240  0 16:17 pts/8    00:00:00 ps -ef
+davea     15255   9240  0 16:17 pts/8    00:00:00 grep --color=auto davea
